@@ -13,11 +13,11 @@ BuildRequires:  gcc
 BuildRequires:  make
 BuildRequires:  pkgconfig(libmnl)
 
-Provides:       %{name}-kmod-common = %{version}
-Requires:       %{name}-kmod >= %{version}
+#Provides:       %{name}-kmod-common = %{version}
+#Requires:       %{name}-kmod >= %{version}
 
 %description
-This contains the Intel SGX SDK with debugger.
+This contains the Intel SGX SDK's debugger.
 
 %prep
 %autosetup -n intel-sgx-%{version}
