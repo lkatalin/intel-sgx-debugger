@@ -4,6 +4,7 @@ Version:        0.0.20200227
 Release:        1%{?dist}
 License:        Apache-2.0
 
+#
 Source0: 	https://github.com/lkatalin/intel-sgx-debugger/blob/master/intel-sgx-sdk.tar
 
 %{?systemd_requires}
